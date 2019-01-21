@@ -1,7 +1,7 @@
 require'pry'
 class Dog
-  attr_accessor :name, :breed
-  attr_reader :id
+  # attr_accessor :name, :breed
+  # attr_reader :id
 
   def initialize(id: nil, name:, breed:)
     @id = id
@@ -74,5 +74,5 @@ class Dog
       end
       dog
     end
-    
+
 end
